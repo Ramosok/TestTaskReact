@@ -1,9 +1,8 @@
 //libraries
 import React from 'react';
+//Components
 import MyInput from "../UI/MyInput";
 import Select from "../UI/Select";
-//Components
-
 
 const PostFilter = ({filter, setFilter}) => {
     return (

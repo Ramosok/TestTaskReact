@@ -9,7 +9,7 @@ const Select = ({options, defaultValue, value, onChange}) => {
             value={value}
             onChange = {event => onChange(event.target.value)}
         >
-            <option desabled value="" >{defaultValue}</option>
+            <option desabled="true" value="" >{defaultValue}</option>
             {options.map(option =>
                 <option key={option.value} value={option.value}>
                     {option.name}

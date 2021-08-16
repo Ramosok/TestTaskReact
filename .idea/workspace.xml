@@ -16,25 +16,30 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:main" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="405aa191-5c76-41f0-b049-ad44a5a1c88f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/PostFilter/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/PostForm/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/PostItem/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/PostList/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UI/MyButton/MyButton.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UI/MyButton/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UI/MyInput/MyInput.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UI/MyInput/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UI/MyModal/MyModal.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UI/MyModal/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UI/Select/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/api/posts.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/api/posts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/components/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../src/components/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/components/Form/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../src/components/Form/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/components/List/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../src/components/List/index.jsx" afterDir="false" />
+    <list default="true" id="405aa191-5c76-41f0-b049-ad44a5a1c88f" name="Default Changelist" comment="init: start testTask;&#10;feat: Creat post, Del post, modal">
+      <change afterPath="$PROJECT_DIR$/src/api/PostServce.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI/Loader/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI/Loader/loader.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/hooks/useFetching" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/hooks/usePost.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/webResources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webResources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PostFilter/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PostFilter/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PostList/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PostList/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/Select/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/Select/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +55,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1wj3c4yRj3uTtyozRjXGntykEJI" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -65,8 +70,11 @@
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="yarn" />
   </component>
@@ -103,8 +111,24 @@
       <workItem from="1628958248025" duration="1660000" />
       <workItem from="1628988345612" duration="12482000" />
       <workItem from="1629020337511" duration="14523000" />
-      <workItem from="1629039377737" duration="4288000" />
+      <workItem from="1629039377737" duration="5035000" />
+      <workItem from="1629076361381" duration="9195000" />
     </task>
+    <task id="LOCAL-00001" summary="init: start testTask;&#10;feat: Creat post, Del post, modal">
+      <created>1629043934187</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1629043934187</updated>
+    </task>
+    <task id="LOCAL-00002" summary="init: start testTask;&#10;feat: Creat post, Del post, modal">
+      <created>1629043943030</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1629043943030</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,30 +139,62 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init: start testTask;&#10;feat: Creat post, Del post, modal" />
+    <option name="LAST_COMMIT_MESSAGE" value="init: start testTask;&#10;feat: Creat post, Del post, modal" />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1515" height="125" key="GridCell.Tab.0.bottom" timestamp="1629028594465">
+    <state x="638" y="323" key="#ESLint" timestamp="1629082138352">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="125" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1629028594465" />
-    <state width="1515" height="125" key="GridCell.Tab.0.center" timestamp="1629028594464">
+    <state x="638" y="323" key="#ESLint/0.0.1536.824@0.0.1536.824" timestamp="1629082138352" />
+    <state x="654" y="275" key="#Notifications" timestamp="1629077427089">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="125" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1629028594464" />
-    <state width="1515" height="125" key="GridCell.Tab.0.left" timestamp="1629028594463">
+    <state x="654" y="275" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1629077427089" />
+    <state x="521" y="214" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1629084559725">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="125" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1629028594463" />
-    <state width="1515" height="125" key="GridCell.Tab.0.right" timestamp="1629028594465">
+    <state x="521" y="214" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1629084559725" />
+    <state width="1515" height="150" key="GridCell.Tab.0.bottom" timestamp="1629085417666">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="125" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1629028594465" />
+    <state width="1515" height="150" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1629085417666" />
+    <state width="1515" height="150" key="GridCell.Tab.0.center" timestamp="1629085417666">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="150" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1629085417666" />
+    <state width="1515" height="150" key="GridCell.Tab.0.left" timestamp="1629085417666">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="150" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1629085417666" />
+    <state width="1515" height="150" key="GridCell.Tab.0.right" timestamp="1629085417666">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="150" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1629085417666" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1629077451550">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1629077451550" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1628996500616">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
